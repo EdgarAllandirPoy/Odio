@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+   background-image: url(https://i.kym-cdn.com/entries/icons/mobile/000/034/467/Communist_Bugs_Bunny_Banner.jpg);
+   background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    background-color: rgba(203, 17, 33, 0.356);
+    padding: 30px;
+    border-radius: 10px;
+   border: 3px solid white;
+}
+
+#entradaSenha {
+    margin: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+#entradaSenha:focus {
+    border-color: dodgerblue;
+}
+
+#mostrarSenha {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: rgb(9, 203, 221);
+    transition: color 0.3s;
+}
+
+#mostrarSenha:hover {
+    color: darkblue;
+}
+
+#medidorPoder {
+    margin-top: 10px;
+    height: 20px;
+    width: 0;
+    background-color: gray;
+    transition: width 0.3s, background-color 0.3s;
+    border-radius: 3px;
+}
+
+#requisitos {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.requisito {
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #eee;
+}
+
+.vermelho {
+    color: red;
+    transition: color 0.3s;
+}
+
+.verde {
+    color: green;
+    transition: color 0.3s;
+}
+
+#textoPoder {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
