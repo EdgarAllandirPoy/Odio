@@ -16,7 +16,7 @@ entradaSenha.addEventListener('input', function () {
     medidorPoder.style.width = Poder + '%';
     medidorPoder.style.backgroundColor = cor;
 
-    textoPoder.textContent = 'Força da Senha: ' + Poder + '%'
+    textoPoder.textContent = 'Probabilidade de não ir para o GULAG: ' + Poder + '%'
     
     atualizar(senha)
 });
